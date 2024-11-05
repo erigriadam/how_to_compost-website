@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Composting Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #1E1818;
+        color: #FEFAE0;
+        font-family: 'Amatic SC', cursive;
+      }
+      
+      h1 {
+        font-size: 60px;
+      }
+      
+      .modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1150px;
+        background-color: #254C3D;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        text-align: left;
+        font-family: 'Solitreo', cursive;
+        font-size: 17px;
+      }
+
+      .modal h1 {
+        color: #FEFAE0;
+      }
+
+      .close-btn {
+        position: absolute;
+        top: 35px;
+        right: 15px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #FEFAE0;
+        cursor: pointer;
+      }
+
+      .widget {
+        background-color: #764934;
+        color: #FEFAE0;
+        padding: 50px;
+        width: 150px;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 20px;
+        font-size: 32px;
+      }
+
+      .widget:hover {
+        background-color: #cfcfcf;
+      }
+      .widget p {
+        font-size: 18px;
+        color: #FEFAE0;
+        margin-top: 10px;
+      }
+      .small-paragraph {
+  font-size: 12px;
+  line-height: 1;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Compost, How to Start</h1> 
+    <a href="https://forms.gle/S2trXWQCkXbdWRh16" target="_blank" style="color: #FEFAE0;">review me :) </a>
+    <div style="position: relative; height: 0px">
+    <img src="compost-419261_1280.jpg" alt="Composting Image" width="350"style="float: right; position: top: 460px;left: 50%;" alt="composting bins">
+  </div>
+    <div class="widget" onclick="openModal1()">composting with a bin
+      <p>learn how to compost with a bin,mess free and pets safe!</p>
+    </div>
+    
+    <div class="modal" id="myModal1">
+      <span class="close-btn" onclick="closeModal1()">&times;</span>
+      <h2>composting with a bin, how to start?</h2>
+      <ol>
+        <li><strong>choose a bin</strong>, Purchase a composting bin or make one from a plastic container. Ensure it has a tight-fitting lid to keep bugs out. and if it doesnt have holes, make them with a hot knife about 6mm wide to ensure ventilation</li>
+        <li><strong>pick a location</strong>, Choose a spot that's accessible and gets some shade. This could be on a balcony, in the kitchen, or outdoors. Avoid placing it in direct sunlight to prevent overheating.</li>
+        <li> <strong>Prepare the Bottom Layer</strong>,add coarse material: Begin by adding a 5–8 cm layer of coarse, dry materials like small branches, twigs, or shredded cardboard. This improves airflow at the bottom of your bin.</li>
+        <img src="cardboard-4596624_1280-removebg-preview.png" width="150" style="position: absosolute; bottom: 450px; right: 20px;" alt="cardboard pile"> <img src="what you can compost.png" width="350"style="float: right; position: top: 450px;left: 50%;" alt="what can you compost infographic">
+          <br> <ul>
+            <li>greens:These are moist materials like fruit and vegetable scraps, coffee grounds, and grass clippings.</li>
+            <li>browns:These are dry materials like shredded paper, dried leaves, or straw.
+            </li>
+          </ul></li>
+      </ol>
+      <ul>tips:
+        <li>Follow a 2:1 ratio of browns to greens for balanced composting.</li>
+        <li>Check moisture: Your compost should be as damp as a wrung-out sponge. If it feels too dry, lightly spray water. If it’s too wet, add more dry browns.</li>
+        <li>Turn the pile: Every 1-2 weeks, use a garden fork or a shovel to mix the compost, improving air circulation and speeding up decomposition.</li>
+        <li>Your compost should heat up to around 55-70°C during decomposition. If it feels too cool, add more green materials to raise the temperature.(i recoment using a thermometer and sticking it to the inner side of the composting bin)</li>
+        <li>Chop large food scraps into smaller pieces (around 5 cm or less) to help them break down faster.</li>
+        <li>After several months(3-6) months, the material at the bottom of the bin will become dark, crumbly, and have an earthy smell. This indicates it’s ready for use.</li>
+        <li>when ready Mix the compost into garden soil, add it to potted plants, or spread it on your lawn for nutrient-rich soil.</li>
+      </ul>
+      <a href="https://forms.gle/S2trXWQCkXbdWRh16" target="_blank" style="color: #FEFAE0;">review me :) </a>
+    </div>
+    <img src="Screenshot 2024-10-20 at 11.27.51.png" width="350"style="float: right; position: top: 450px;left: 50%;" alt="hand with worms and dirt">
+    <div class="widget" onclick="openModal2()">vermicomposting
+      <p>makes the food nutricious fast and with friend woluwoluwolu</p>
+    </div>
+    
+    <div class="modal" id="myModal2">
+      <span class="close-btn" onclick="closeModal2()">&times;</span> 
+      <h2>Vermicomposting: A Quick Start Guide</h2>
+      <p>Vermicomposting is a method of composting where worms (typically red wigglers) break down organic waste into nutrient-rich compost. It’s an efficient and eco-friendly way to recycle food scraps and create rich soil for plants.</p>
+      <ol>
+        <li>Set Up Your Worm Bin
+          Use a container with a lid. Drill small holes for airflow, and line the bottom with moist bedding (shredded paper, coconut coir, or cardboard).</li>
+          <li>choose the Right Worms
+            Red wigglers (Eisenia fetida) are ideal for vermicomposting. You can buy them online or from local suppliers.
+            </li>
+            <li>Add Your Worms
+              Place the worms into the prepared bedding. They will burrow in and begin adjusting to their new home.</li> <img src="what can you feed to your worms.png" width="350"style="float: right; position: top: 450px;left: 50%;" alt="infographic on what can you feed to your worms">
+              <li>Feed Your Worms
+                Add food scraps like fruit and veggie peels, coffee grounds, and eggshells. Avoid adding meat, dairy, or oily foods, as they can attract pests or create odors.</li> 
+                <li>Maintain Moisture and Temperature
+                  Keep the bedding moist like a damp sponge. Maintain a temperature of 55-77°F (13-25°C). Place the bin in a cool, shady spot.</li>
+                  <li>Harvest the Compost
+                    After 3-6 months, you’ll notice dark, crumbly compost. Push the contents to one side, add fresh bedding to the empty side, and let the worms migrate. Once they've moved, you can collect the compost and use it for your plants!</li>
+      </ol>
+      <p>Vermicomposting is simple, sustainable, and great for the environment!</p> <img src="th-2022011671.jpeg" width="350"style="float: right; position: top: 450px;left: 50%;" alt="pink crochet worm">
+      <a href="https://forms.gle/S2trXWQCkXbdWRh16" target="_blank" style="color: #FEFAE0;">review me :) </a>
+    </div>
+    <img src="leaves-10742_1280.jpg" width="350"style="float: right; position: bottom: 450px;left: 50%;" alt="composting pile">
+    <div class="widget" onclick="openModal3()">composting pile
+      <p>the most lazy method, if you have the space you have the success </p>
+    </div>
+    
+    <div class="modal" id="myModal3">
+      <span class="close-btn" onclick="closeModal3()">&times;</span>
+      <h2>composting pile, a quick start guide </h2>
+      <p>A composting pile is an easy way to recycle organic waste and turn it into nutrient-rich soil. All you need is space, the right mix of materials, and a little patience. Follow these simple steps to get started!</p>
+      <ol>
+        <li>Pick a shady spot in your yard with good airflow. Make sure it's accessible for easy maintenance.</li>
+        <li>Create a Base Layer
+          Start with a layer of coarse materials like twigs or straw, about 10 cm thick. This helps with drainage and airflow.
+          </li>
+          <li>Add Browns and Greens
+            Layer browns and greens. Aim for a 2:1 ratio—twice as much brown as green.<img src="/Users/erigriadam/Desktop/design/what can you put in your composting pile.png" width="350"style="float: right; position: top: 450px;left: 50%;" alt="infographic on what are browns and greens">
+            </li>
+            <li>Maintain Moisture
+              Your pile should feel like a wrung-out sponge. If it’s too dry, spray it with water. If too wet, add more dry material.</li>
+              <li>Turn the Pile
+                Every 2-4 weeks, use a garden fork or shovel to mix the compost. This helps aerate it and speeds up decomposition.</li>
+                <li>Harvest Compost
+                  After 4-6 months, the bottom of your pile should be dark, crumbly, and smell earthy. That’s your finished compost, ready to use in your garden!</li>
+        <h2>tips for a good composting pile!</h2><img src="/Users/erigriadam/Desktop/design/th-2425710525.jpeg" width="350"style="float: right; position: top: 450px;left: 50%;" alt="composting pile image">
+        <ul>
+          <li>pick a shady location to make the pile dry less quickly</li>
+          <li>balancing the pile with a 2:1 ratio of browns and green is crutial to a good compost</li>
+          <li>keep the pile moist but not too soggy</li>
+          <li>mix the pile every now and then to make the compost speed up the composting proccess</li>
+          <li>compost should be ready in 4-6 months, and don't worry if the pile is hot, it is the micro organisms making gold from trash :)</li>
+
+        </ul>
+      </ol>
+      <a href="https://forms.gle/S2trXWQCkXbdWRh16" target="_blank" style="color: #FEFAE0;">review me :) </a>
+    </div>
+    <img src="rake-5180044_1280.jpg" width="350"style="float: right; position: relative; top: 50px;left: 28%;" alt="a garden fork positioned inside the ground">
+    <div class="widget" onclick="openModal4()">tools and equipment
+      <p>this page shows all the tools and equipment needed for all types of composting</p>
+    </div>
+    
+    <div class="modal" id="myModal4">
+      <span class="close-btn" onclick="closeModal4()">&times;</span>
+      <h2>tools and equipment needed: </h2>
+      <h3>composting with a bin</h3>
+      <ul class="small-paragraph">
+        <li>container with a lid</li>
+        <li>drilling machine, drilling equipment to make holes in the conteiner.</li>
+        <li>if you don't have a drilling machine:knife and a lighter to heat up the knife.</li>
+        <li>water spray</li>
+        <li>garden fork or a shovel.</li>
+        <li>garden thermometer</li>
+        </ul>
+     <h3>vermicomposting</h3>
+        <ul class="small-paragraph">
+          <li>a bin to compost in.</li>
+          <li>tools to make small holes for the worms to breathe.</li>
+        </ul>
+    <h3>composting pile</h3>
+    <ul class="small-paragraph">
+      <li>spray bottle to spary compost if dry.</li>
+      <li>garden fork or shovel to mix the compost.</li>
+    </ul>
+      <h2>tools and equipment reccomended:</h2> <img src="/Users/erigriadam/Desktop/design/th-1061129105-removebg-preview.png" width="350" style= "float: right; position: absolute; top: 50px; right: 0;" alt="gardening tools">
+      <h3>composting with a bin</h3>
+      <ul class="small-paragraph"><li>knife to chop big coompost to smaller pieces.</li></ul>  <img src="/Users/erigriadam/Desktop/design/th-1753891199-removebg-preview.png" width="350"style="float: right; position: top: 450px;left: 50%;" alt="tools and equipments"> 
+      <h3>vermicomposting</h3>
+      <ul class="small-paragraph">
+        <li>thermometer to keep track of the tempreature inside the bin.</li>
+        <li>gardening tools to help you harvest the compost when ready.</li>
+      </ul>
+      <h3>composting with a pile</h3>
+      <li class="small-paragraph">a fence to keep the compost in one place securely</li>
+      <a href="https://forms.gle/S2trXWQCkXbdWRh16" target="_blank" style="color: #FEFAE0;">review me :) </a>
+    </div>
+    <img src="books-320647_1280.jpg" width="350"style="float: right; position: top: 450px;left: 50%;" alt="old library books on a book shelf">
+    <div class="widget" onclick="openModal5()">references
+      <p>want to see where i took my information from, this page is for you :)</p>
+    </div>
+    
+    <div class="modal" id="myModal5">
+      <span class="close-btn" onclick="closeModal5()">&times;</span>
+      <h2>references: </h2>
+      <h3>here are all the references to the information and the pictures that I used, just copy the link and paste it in your browser.</h3>
+      <h4>composting with a bin</h4>
+      <p class="small-paragraph" >Cornell Waste Management Institute. (2020). Composting basics: What is composting?. Cornell University. https://compost.css.cornell.edu/Composting_basics.pdf<br>
+        <br>
+        U.S. Environmental Protection Agency. (2023). Composting at home. EPA. https://www.epa.gov/recycle/composting-home<br>
+        <br>
+        Composting Council Research & Education Foundation. (2021). Home composting guide. https://www.compostingcouncil.org/page/HomeCompostingGuide<br<>
+        <br><br>
+        Planet Natural. (2023). How to compost: A guide to composting at home. Planet Natural. https://www.planetnatural.com/composting-101/</p>
+      <h4>vermicomposting</h4>
+      <p class="small-paragraph"> Edwards, C. A., & Arancon, N. Q. (2004). Vermicomposting: A commercial venture or an important environmental solution? In Vermiculture technology: Earthworms, organic wastes, and environmental management (pp. 1-20). CRC Press.<br>
+<br>
+        Joshi, R., & Vig, A. P. (2010). Vermicompost as an effective organic fertilizer and biocontrol agent: Effect on growth, yield, and quality of plants. Bioresource Technology, 101(15), 6790-6794. https://doi.org/10.1016/j.biortech.2010.03.146<br>
+<br>
+        Lim, S. L., Lee, L. H., & Wu, T. Y. (2016). Sustainability of using composting and vermicomposting technologies for organic waste biodegradation: A review. Chemical Engineering Journal, 282, 606-620. https://doi.org/10.1016/j.cej.2015.06.034<br>
+        <br>
+        Nair, J., Sekiozoic, V., & Anda, M. (2006). Effect of pre-composting on vermicomposting of kitchen waste. Bioresource Technology, 97(16), 2091-2095. https://doi.org/10.1016/j.biortech.2005.09.020</p>
+     <h4>compostig pile</h4>
+     <p class="small-paragraph">
+      Cornell Waste Management Institute. (n.d.). Composting resources. Cornell University. Retrieved from http://cwmi.css.cornell.edu/<br>
+      <br>
+      U.S. Environmental Protection Agency. (2023). Composting at home. EPA. Retrieved from https://www.epa.gov/recycle/composting-home<br>
+      <br>
+      Composting Council Research & Education Foundation. (2021). Home composting guide. Retrieved from https://www.compostingcouncil.org/page/HomeCompostingGuide<br>
+      <br>
+      Planet Natural. (2023). How to compost: A guide to composting at home. Retrieved from https://www.planetnatural.com/composting-101<br>
+      <br>
+     </p>
+        <h4>images</h4>
+      <p class="small-paragraph">composting with a bin image:Sign in - Google Accounts. (2024). Pixabay.com. https://pixabay.com/photos/compost-garden-waste-bio-nature-419261/
+        <br> hand with worms and dirt: discounthero.org. (2024). Tinyurl.com. https://tinyurl.com/bdfewjp3
+        <br>composting pile:Hans. (2011, December 7). Leaves Pile Of Park - Free photo on Pixabay. Pixabay.com. https://pixabay.com/photos/leaves-pile-of-leaves-park-fall-10742/
+        <br> composting tools: Carola68. (2020, May 18). Rake Tool Garden - Free photo on Pixabay. Pixabay.com. https://pixabay.com/photos/rake-tool-garden-tool-old-rusted-5180044/
+        <br> books on a shelf image: kdavis25. (2014, April 10). Books Education Reading - Free photo on Pixabay. Pixabay.com. https://pixabay.com/photos/books-education-reading-knowledge-320647/
+        <br> cardboard pile: Recycling is Thriving, in Part Due to the Pandemic. (2021, August 30). Northeast Resource Recovery Association. https://www.nrrarecycles.org/news/recycling-thriving-part-due-pandemic
+        ‌<br> pink crochet worm: (2024). Pinimg.com. https://i.pinimg.com/originals/95/05/24/950524fa12d2944b0c8bd49271415d74.jpg
+        ‌<br> composting pile image: (2019). Uaf.edu. https://itgrowsinalaska.community.uaf.edu/wp-content/uploads/sites/859/2020/07/Compost-pile-vermont-1.jpeg
+        <br>image of tools: (2014). Davidtyler.com. https://davidtyler.com/wp-content/uploads/2016/05/tools_cropped.jpg ‌
+        <br>image of gardening tools: (2024). Propertygeek.in. https://www.propertygeek.in/wp-content/uploads/2022/03/25-Crucial-Tools-Used-for-Gardening-A-Complete-List.jpg
+      </p>
+      <a href="https://forms.gle/S2trXWQCkXbdWRh16" target="_blank" style="color: #FEFAE0;">review me :) </a>
+    </div>
+    <script>
+     
+      function openModal1() {
+        document.getElementById("myModal1").style.display = "block";
+      }
+
+      
+      function closeModal1() {
+        document.getElementById("myModal1").style.display = "none";
+      }
+
+     
+      function openModal2() {
+        document.getElementById("myModal2").style.display = "block";
+      }
+
+      
+      function closeModal2() {
+        document.getElementById("myModal2").style.display = "none";
+      }
+
+      function openModal3() {
+        document.getElementById("myModal3").style.display = "block";
+      }
+
+      
+      function closeModal3() {
+        document.getElementById("myModal3").style.display = "none";
+      }
+
+      function openModal4() {
+        document.getElementById("myModal4").style.display = "block";
+      }
+
+      
+      function closeModal4() {
+        document.getElementById("myModal4").style.display = "none";
+      }
+
+      function openModal5() {
+        document.getElementById("myModal5").style.display = "block";
+      }
+
+      
+      function closeModal5() {
+        document.getElementById("myModal5").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
